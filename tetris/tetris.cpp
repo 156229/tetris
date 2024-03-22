@@ -54,6 +54,7 @@ int main()
         display(process.get_board());
         if (process.end)break;
     }
+    cout << "\n\n\n\n\n遊戲結束";
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表

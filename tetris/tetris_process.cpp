@@ -104,8 +104,8 @@ void tetris_process::move()
 }
 void tetris_process::generate_block()
 {
-	if(block.next_type==-1)block.next_type = rand() % 7;
 	srand((unsigned)time(NULL));
+	if(block.next_type==-1)block.next_type = rand() % 7;
 	block.type = block.next_type;
 	block.next_type=rand()%7;
 	block.rotation = 0;
